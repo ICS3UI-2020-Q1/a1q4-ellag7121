@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Sample",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "3\r\n6\r\n8\r\n16",
+      "output": "Please enter in the x coordinate of the first point\r\nPlease enter in the y coordinate of the first point\r\nPlease enter in the x coordinate of the second point\r\nPlease enter in the y coordinate of the second point\r\nThe slope of your line would be 2.0.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Horizontal Line",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "2\r\n8\r\n6\r\n8",
+      "output": "Please enter in the x coordinate of the first point\r\nPlease enter in the y coordinate of the first point\r\nPlease enter in the x coordinate of the second point\r\nPlease enter in the y coordinate of the second point\r\nThe slope of your line would be 0.0.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Negative Slope",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "6\r\n-2\r\n1\r\n6",
+      "output": "Please enter in the x coordinate of the first point\r\nPlease enter in the y coordinate of the first point\r\nPlease enter in the x coordinate of the second point\r\nPlease enter in the y coordinate of the second point\r\nThe slope of your line would be -1.6.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
